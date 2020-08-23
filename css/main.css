@@ -42,7 +42,7 @@ header nav a:hover{
 /* --Filme principal-- */
 .filme-principal{
    font-size: 16px;
-   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url(/images/capa-house.jpg);
+   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url(/images/house-capa.png);
    height: 400px;
    background-size: cover;
    
@@ -91,4 +91,26 @@ header nav a:hover{
 
 .filme-principal .container{
    width: 70%;
+}
+
+.box-filme{
+   width: 100%;
+   height: 100%;
+   display: block;
+
+   cursor: pointer;
+}
+
+.item .box-filme{
+   top: 0;
+}
+
+.item .box-filme:hover{
+   top: -4px;
+   box-shadow: 0 5px 10px 0 #999;
+   transition: all .2s ease-in-out;
+}
+
+.carrossel-filmes{
+   margin-top: 5px;
 }
